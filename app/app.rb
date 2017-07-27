@@ -7,12 +7,19 @@ require_relative 'data_mapper_setup.rb'
 
 class Bookmark < Sinatra::Base
 
-  get '/' do
+  enable :sessions
 
+  get '/' do
+    # direct user to sign up
+    # direct user to add links
+    # then they can view /links which is populated
+    # otherwise /links page will show 'no links added, please add a link'
   end
 
   get '/links' do
     @links = Link.all
+    # @user = sessions[:user_id]
+    # if @links.length == 0 ? erb :welcome : erb :links
     erb :links
   end
 
@@ -34,5 +41,17 @@ class Bookmark < Sinatra::Base
     @links = tag ? tag.links : []
     erb :'links/index'
   end
+
+  get '/users/new' do
+    erb :'users/new'
+  end
+
+  post '/users' do
+    @user = User.new(email: params[:email], password: params[:password])
+    # session([:user_id]) = @user.id
+    redirect '/links'
+  end
+
+
 
 end
