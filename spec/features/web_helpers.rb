@@ -25,3 +25,6 @@ def sign_in(email:,
   fill_in :password, with: password
   click_button 'Sign in'
 end
+
+def sign_out
+end

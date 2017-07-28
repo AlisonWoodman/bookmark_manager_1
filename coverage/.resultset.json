@@ -94,6 +94,24 @@
         null,
         null
       ],
+      "/Users/alisonwoodman/Documents/Makers/week-4/bookmark_manager/bookmark_manager_3/spec/features/signing_out_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/alisonwoodman/Documents/Makers/week-4/bookmark_manager/bookmark_manager_3/spec/models/user_spec.rb": [
         1,
         null,
@@ -113,6 +131,6 @@
         null
       ]
     },
-    "timestamp": 1501243215
+    "timestamp": 1501251387
   }
 }
