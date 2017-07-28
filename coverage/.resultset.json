@@ -78,8 +78,41 @@
         1,
         null,
         null
+      ],
+      "/Users/alisonwoodman/Documents/Makers/week-4/bookmark_manager/bookmark_manager_3/spec/features/signing_in_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/alisonwoodman/Documents/Makers/week-4/bookmark_manager/bookmark_manager_3/spec/models/user_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
       ]
     },
-    "timestamp": 1501240554
+    "timestamp": 1501243215
   }
 }
