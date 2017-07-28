@@ -4,8 +4,15 @@ require 'capybara/rspec'
 require 'capybara'
 require 'rspec'
 require 'pry'
+require 'simplecov'
+require 'simplecov-console'
 require 'database_cleaner'
 require_relative '../app/app.rb'
+
+SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
+  SimpleCov::Formatter::Console,
+])
+SimpleCov.start
 
 Capybara.app = Bookmark
 

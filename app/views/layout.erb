@@ -7,6 +7,9 @@
     <% if current_user %>
       <p>Welcome, <%= current_user.email %></p>
     <% end %>
+    <% if flash[:notice] %>
+      <div id='notice'><%= flash[:notice] %></div>
+    <% end %>
     <%= yield %>
   </body>
 </htmL>
