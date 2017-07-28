@@ -3,39 +3,22 @@
     "coverage": {
       "/Users/alisonwoodman/Documents/Makers/week-4/bookmark_manager/bookmark_manager_3/spec/features/add_user_account_spec.rb": [
         1,
-        null,
-        1,
-        null,
         1,
         2,
         1,
         1,
         null,
-        null
-      ],
-      "/Users/alisonwoodman/Documents/Makers/week-4/bookmark_manager/bookmark_manager_3/spec/features/web_helpers.rb": [
+        null,
         1,
-        5,
-        5,
-        5,
-        5,
-        5,
+        2,
         null,
         null,
         1,
+        2,
         null,
-        null,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
         null
       ],
       "/Users/alisonwoodman/Documents/Makers/week-4/bookmark_manager/bookmark_manager_3/spec/features/adding_tags_spec.rb": [
-        1,
-        null,
         1,
         1,
         1,
@@ -59,7 +42,6 @@
       ],
       "/Users/alisonwoodman/Documents/Makers/week-4/bookmark_manager/bookmark_manager_3/spec/features/filtering_by_tag_spec.rb": [
         1,
-        null,
         1,
         1,
         1,
@@ -72,9 +54,6 @@
       ],
       "/Users/alisonwoodman/Documents/Makers/week-4/bookmark_manager/bookmark_manager_3/spec/features/password_conf_spec.rb": [
         1,
-        null,
-        1,
-        null,
         1,
         2,
         1,
@@ -93,6 +72,6 @@
         null
       ]
     },
-    "timestamp": 1501236429
+    "timestamp": 1501238583
   }
 }
