@@ -7,9 +7,17 @@ feature 'Feature: user sign up' do
 
   scenario 'I cannot sign up without entering an email' do
     expect { sign_up(email: nil) }.not_to change(User, :count)
+    expect(page).to have_content 'Email must not be blank'
   end
 
   scenario 'I cannot sign up using an invalid email address' do
     expect { sign_up(email: "invalid@email") }.not_to change(User, :count)
+    expect(page).to have_content 'Email has an invalid format'
+  end
+
+  scenario 'I cannot sign up using an already registered email address' do
+    sign_up
+    expect { sign_up }.not_to change(User, :count)
+    expect(page).to have_content 'Email is already taken'
   end
 end
